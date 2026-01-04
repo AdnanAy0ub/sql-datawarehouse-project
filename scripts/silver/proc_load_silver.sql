@@ -253,4 +253,4 @@ begin
 	END CATCH
 END 
 
-Exec silver.load_silver; -- execute thee stored procedure --
+Exec silver.load_silver; -- to execute the stored procedure --
