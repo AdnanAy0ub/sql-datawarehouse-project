@@ -36,7 +36,7 @@ begin
 
 		print '>>inserting data into:bronze.crm_cust_info';
 		Bulk insert bronze.crm_cust_info
-		from 'A:\Projects\DWH barra\sql-data-warehouse-project\datasets\source_crm\cust_info.csv'
+		from 'A:\Projects\DWH Sql\sql-data-warehouse-project\datasets\source_crm\cust_info.csv'
 		with (
 			Firstrow = 2,
 			fieldterminator = ',',
@@ -51,7 +51,7 @@ begin
 
 		print '>>inserting data into:bronze.crm_prd_info';
 		Bulk insert bronze.crm_prd_info
-		from 'A:\Projects\DWH barra\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
+		from 'A:\Projects\DWH Sql\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
 		with (
 			Firstrow = 2,
 			fieldterminator = ',',
@@ -67,7 +67,7 @@ begin
 
 		print '>>inserting data into:bronze.crm_sales_details';
 		Bulk insert bronze.crm_sales_details
-		from 'A:\Projects\DWH barra\sql-data-warehouse-project\datasets\source_crm\sales_details.csv'
+		from 'A:\Projects\DWH Sql\sql-data-warehouse-project\datasets\source_crm\sales_details.csv'
 		with (
 			Firstrow = 2,
 			fieldterminator = ',',
@@ -88,7 +88,7 @@ begin
 
 		print '>>inserting data into:bronze.erp_cust_az12';
 		Bulk insert bronze.erp_cust_az12
-		from 'A:\Projects\DWH barra\sql-data-warehouse-project\datasets\source_erp\cust_az12.csv'
+		from 'A:\Projects\DWH Sql\sql-data-warehouse-project\datasets\source_erp\cust_az12.csv'
 		with (
 			Firstrow = 2,
 			fieldterminator = ',',
@@ -104,7 +104,7 @@ begin
 		truncate table bronze.erp_loc_a101;
 		print '>>inserting data into:bronze.erp_loc_a101';
 		Bulk insert bronze.erp_loc_a101
-		from 'A:\Projects\DWH barra\sql-data-warehouse-project\datasets\source_erp\loc_a101.csv'
+		from 'A:\Projects\DWH Sql\sql-data-warehouse-project\datasets\source_erp\loc_a101.csv'
 		with (
 			Firstrow = 2,
 			fieldterminator = ',',
@@ -120,7 +120,7 @@ begin
 		truncate table bronze.erp_px_cat_g1v2;
 		print '>>inserting data into:bronze.erp_px_cat_g1v2';
 		Bulk insert bronze.erp_px_cat_g1v2
-		from 'A:\Projects\DWH barra\sql-data-warehouse-project\datasets\source_erp\px_cat_g1v2.csv'
+		from 'A:\Projects\DWH Sql\sql-data-warehouse-project\datasets\source_erp\px_cat_g1v2.csv'
 		with (
 			Firstrow = 2,
 			fieldterminator = ',',
